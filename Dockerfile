@@ -14,8 +14,8 @@ RUN apk update && \
     musl-locales \ 
     musl-locales-lang \
     npm \
-    node \
-    procps
+    nodejs \
+    procs
  
 RUN npm install -g @google/gemini-cli
 
